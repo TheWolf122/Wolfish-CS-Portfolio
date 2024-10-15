@@ -1,0 +1,43 @@
+body{ 
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    /* background-color: rgb(20, 20, 20);  */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    order: 2;
+}
+.resume{
+    font-size: 100px;
+        /* move resume into the middle */
+    margin-left: auto;  
+
+
+}
+/* make two squares that go on the right and left edge */
+.square1 { 
+    width: 128px;
+    height: 1000px;
+    background: rebeccaPurple;
+    /* move to the far left */
+    margin-right: 0;
+    padding: 20px;
+    margin: 20px;
+    order: 3;
+
+}
+
+.square2 { 
+    width: 128px;
+    height: 1000px;
+    background: teal;
+    /* move to the far right */
+    margin-left: 0;
+    padding: 20px;
+    margin: 20px;
+    order: 1;
+}
+
